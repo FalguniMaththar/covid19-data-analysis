@@ -16,9 +16,13 @@ st.markdown("Interactive Data Analysis using Python & Streamlit")
 # -----------------------------
 # Load Dataset
 # -----------------------------
+import os
+
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/covid_data.csv", parse_dates=["Date"])
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    file_path = os.path.join(BASE_DIR, "data", "covid_data.csv")
+    df = pd.read_csv(file_path, parse_dates=["Date"])
     return df
 
 df = load_data()
