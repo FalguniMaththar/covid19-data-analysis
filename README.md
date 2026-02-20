@@ -10,6 +10,10 @@ This project analyzes global COVID-19 trends using Python.
 - 7-day moving average
 - Data visualization using Matplotlib
 
+## 📊 Sample Visualization
+
+![Global Trend](images/global_trend.png)
+
 ## Technologies Used
 - Python
 - Pandas
