@@ -1,12 +1,14 @@
 # COVID-19 Data Analysis 📊
 
 
+
 ## 🚀 Live Demo
 
 👉 **Streamlit App:**  
 https://covid19-data-analysis-bvj6ckwgsgqfcrhg6jsmzs.streamlit.app/
 
 ---
+
 
 ## 📊 Project Overview
 
@@ -23,6 +25,7 @@ Built using:
 - Streamlit
 - Altair
 
+
 ## Project Overview
 This project analyzes global COVID-19 trends using Python.
 
@@ -33,14 +36,17 @@ This project analyzes global COVID-19 trends using Python.
 - 7-day moving average
 - Data visualization using Matplotlib
 
+
 ## 📊 Sample Visualization
 
 ![Global Trend](images/global_trend.png)
+
 
 ## Technologies Used
 - Python
 - Pandas
 - Matplotlib
+
 
 ## How to Run
 1. Install requirements:
